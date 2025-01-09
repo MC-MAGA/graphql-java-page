@@ -25,7 +25,7 @@ const config = {
           routeBasePath: 'documentation',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/graphql-java/graphql-java-page/edit/master/',
-          lastVersion: "v20",
+          lastVersion: "v22",
           versions: {
             current: {
               label: "master",
@@ -67,6 +67,7 @@ const config = {
           {to: 'https://leanpub.com/graphql-java/', label: 'Book', position: 'left'},
           {to: '/tutorials/getting-started-with-spring-boot', label: 'Tutorial', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/security', label: 'Security', position: 'left'},
           {to: '/about', label: 'About', position: 'left'},
           {type: 'docsVersionDropdown', position: 'right'},
           {
@@ -93,6 +94,10 @@ const config = {
               {
                 label: 'JavaDoc',
                 to: 'https://javadoc.io/doc/com.graphql-java/graphql-java/',
+              },
+              {
+                label: 'Security',
+                to: '/security'
               }
             ],
           },
@@ -102,10 +107,6 @@ const config = {
               {
                 label: 'GitHub Discussions',
                 href: 'https://github.com/graphql-java/graphql-java/discussions',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/graphql_java',
               },
             ],
           },

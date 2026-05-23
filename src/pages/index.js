@@ -24,7 +24,7 @@ function Hero() {
         <Link className={styles.ctaPrimary} to="/documentation/getting-started">
           Get started →
         </Link>
-        <a className={styles.ctaSecondary} href="https://feddi.dev" {...EXT_LINK}>
+        <a className={styles.ctaSecondary} href="https://feddi.dev?utm_source=graphql_java_com&utm_medium=website&utm_campaign=site_referral&utm_content=hero_cta" {...EXT_LINK}>
           JVM-native GraphQL federation <ExtIcon />
         </a>
       </div>
@@ -75,7 +75,7 @@ export default function Home() {
                 Andreas Marek, creator of GraphQL Java, is building feddi — a JVM-native federation gateway for any team running GraphQL on the JVM.
               </div>
             </div>
-            <a className={styles.federationBtn} href="https://feddi.dev" {...EXT_LINK}>
+            <a className={styles.federationBtn} href="https://feddi.dev?utm_source=graphql_java_com&utm_medium=website&utm_campaign=site_referral&utm_content=federation_section" {...EXT_LINK}>
               feddi.dev <ExtIcon />
             </a>
           </div>

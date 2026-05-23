@@ -111,7 +111,7 @@ const config = {
           },
           {href: 'https://leanpub.com/graphql-java/', label: 'Book', position: 'left'},
           {to: '/tutorials/getting-started-with-spring-boot', label: 'Tutorial', position: 'left'},
-          {href: 'https://feddi.dev', label: 'Federation', position: 'left', className: 'navbar-federation-link'},
+          {href: 'https://feddi.dev?utm_source=graphql_java_com&utm_medium=website&utm_campaign=site_referral&utm_content=navbar', label: 'Federation', position: 'left', className: 'navbar-federation-link'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/security', label: 'Security', position: 'left'},
           {to: '/about', label: 'About', position: 'left'},

@@ -34,7 +34,7 @@ export default function Footer() {
               <li><a className={styles.link} href="https://javadoc.io/doc/com.graphql-java/graphql-java/" {...EXT_LINK}>JavaDoc<FooterExtIcon /></a></li>
               <li><Link className={styles.link} to="/security">Security</Link></li>
               <li>
-                <a className={`${styles.link} ${styles.federationLink}`} href="https://feddi.dev" {...EXT_LINK}>
+                <a className={`${styles.link} ${styles.federationLink}`} href="https://feddi.dev?utm_source=graphql_java_com&utm_medium=website&utm_campaign=site_referral&utm_content=footer" {...EXT_LINK}>
                   Federation<FooterExtIcon />
                 </a>
               </li>
